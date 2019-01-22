@@ -6,7 +6,7 @@ ruby RUBY_VERSION
 
 group :development do
   gem 'aruba',           '~> 0.14.0'
-  gem 'cucumber',        '~> 3.0'
+  gem 'cucumber',        '~> 3.1'
   gem 'factory_bot',     '~> 4.0'
   gem 'kramdown',        '~> 1.17'
   gem 'rake',            '~> 12.0'
