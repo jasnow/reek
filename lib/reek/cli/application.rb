@@ -38,15 +38,15 @@ module Reek
 
       def configure_options(argv)
         Options.new(argv).parse
-      rescue OptionParser::InvalidOption => error
-        warn "Error: #{error}"
+      rescue OptionParser::InvalidOption => e
+        warn "Error: #{e}"
         exit Status::DEFAULT_ERROR_EXIT_CODE
       end
 
       def configure_app_configuration(config_file)
         Configuration::AppConfiguration.from_path(config_file)
-      rescue Errors::ConfigFileError => error
-        warn "Error: #{error}"
+      rescue Errors::ConfigFileError => e
+        warn "Error: #{e}"
         exit Status::DEFAULT_ERROR_EXIT_CODE
       end
 
