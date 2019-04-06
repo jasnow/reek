@@ -126,3 +126,9 @@ Style/WordArray:
 Metrics/ClassLength:
   Exclude:
     - 'lib/reek/cli/options.rb'
+
+Naming/RescuedExceptionsVariableName:
+  Description: 'Use consistent rescued exceptions variables naming.'
+  Enabled: true
+  VersionAdded: '0.67'
+  PreferredName: error
