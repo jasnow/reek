@@ -62,9 +62,6 @@ Metrics/LineLength:
 Metrics/ParameterLists:
   CountKeywordArgs: false
 
-Naming/RescuedExceptionsVariableName:
-  PreferredName: error
-
 # These files do not test classes or modules
 RSpec/DescribeClass:
   Exclude:
