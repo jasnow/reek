@@ -5,21 +5,21 @@ gemspec
 ruby RUBY_VERSION
 
 group :development do
-  gem 'aruba',               '~> 0.14.8'
-  gem 'cucumber',            '~> 3.0'
-  gem 'factory_bot',         '~> 5.0'
-  gem 'kramdown',            '~> 2.1'
-  gem 'kramdown-parser-gfm', '~> 1.0'
-  gem 'rake',                '~> 12.0'
-  gem 'rspec',               '~> 3.0'
-  gem 'rspec-benchmark',     '~> 0.5.0'
-  gem 'rubocop',             '~> 0.67.2'
-  gem 'rubocop-rspec',       '~> 1.32.0'
-  gem 'simplecov',           '~> 0.16.1'
-  gem 'yard',                '~> 0.9.5'
+  gem 'aruba'
+  gem 'cucumber'
+  gem 'factory_bot'
+  gem 'kramdown'
+  gem 'kramdown-parser-gfm'
+  gem 'rake'
+  gem 'rspec'
+  gem 'rspec-benchmark'
+  gem 'rubocop'
+  gem 'rubocop-rspec'
+  gem 'simplecov'
+  gem 'yard'
 
   platforms :mri do
-    gem 'redcarpet', '~> 3.4.0'
+    gem 'redcarpet'
   end
 end
 
